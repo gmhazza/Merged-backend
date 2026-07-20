@@ -66,7 +66,7 @@ Create a `.env` file in the project root:
 
 ```env
 SECRET_KEY=your_jwt_secret_here
-BCRYPT_SALT_KEY=10
+BCRYPT_SALT_KEY=your_salt_key
 ```
 
 | Variable          | Description                               |
@@ -126,6 +126,10 @@ BCRYPT_SALT_KEY=10
 ## Getting Started
 
 ```bash
+# Cloning Backend
+git clone https://github.com/gmhazza/Merged-backend.git
+cd Merged-backend
+
 # Install dependencies
 npm install
 
